@@ -1,0 +1,28 @@
+# Dependencies
+backend/vendor/
+clinic-frontend/node_modules/
+
+# Environment files (contain secrets)
+.env
+backend/.env
+clinic-frontend/.env
+**/.env.local
+**/.env.*.local
+
+# Build output
+clinic-frontend/dist/
+
+# Composer binary (large, not source code)
+backend/composer.phar
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
